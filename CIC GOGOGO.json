@@ -1,0 +1,189 @@
+{
+  "Name": "CIC GOGOGO",
+  "CreationDate": "2023-3-3",
+  "Commands": [
+    {
+      "Command": "click",
+      "Target": "xpath=/html/body/div/div/div/div/div[2]/div/div/button",
+      "Value": "",
+      "Targets": [
+        "xpath=/html/body/div/div/div/div/div[2]/div/div/button",
+        "xpath=//div[2]/div/div/button",
+        "css=body > div.modal.fade.ng-isolate-scope.in > div > div > div > div.modal-body > div:nth-child(1) > div > button:nth-child(1)"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=/html/body/div/div/div/div/div[2]/div[3]/table/tbody/tr[3]/td[2]/div/a",
+      "Value": "",
+      "Targets": [
+        "xpath=/html/body/div/div/div/div/div[2]/div[3]/table/tbody/tr[3]/td[2]/div/a",
+        "xpath=//a",
+        "css=body > div.modal.fade.ng-isolate-scope.in > div > div > div > div.modal-body > div:nth-child(3) > table > tbody > tr.ng-pristine.ng-scope.ng-valid-time.ng-invalid.ng-invalid-required.ng-valid-maxlength > td:nth-child(2) > div > a"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "linkText=C406 強制性基本安全訓練課程(平安咭) Mandatory Basic Safety Training Course(Green Card)",
+      "Value": "",
+      "Targets": [
+        "linkText=C406 強制性基本安全訓練課程(平安咭) Mandatory Basic Safety Training Course(Green Card)",
+        "xpath=/html/body/div/div/div/div/div[2]/div[3]/table/tbody/tr[3]/td[2]/div/ul/li/a",
+        "xpath=//li/a",
+        "css=body > div.modal.fade.ng-isolate-scope.in > div > div > div > div.modal-body > div:nth-child(3) > table > tbody > tr.ng-pristine.ng-scope.ng-valid-time.ng-invalid.ng-invalid-required.ng-valid-maxlength > td:nth-child(2) > div > ul > li > a"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "select",
+      "Target": "xpath=/html/body/div/div/div/div/div[2]/div[3]/table/tbody/tr[3]/td[3]/div/select",
+      "Value": "label=In",
+      "Targets": [
+        "xpath=/html/body/div/div/div/div/div[2]/div[3]/table/tbody/tr[3]/td[3]/div/select",
+        "xpath=//select",
+        "css=body > div.modal.fade.ng-isolate-scope.in > div > div > div > div.modal-body > div:nth-child(3) > table > tbody > tr.ng-pristine.ng-scope.ng-valid-time.ng-invalid.ng-invalid-required.ng-valid-maxlength > td:nth-child(3) > div > select"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "xpath=/html/body/div/div/div/div/div[2]/div[3]/table/tbody/tr[3]/td[4]/table/tbody/tr[2]/td/input",
+      "Value": "8",
+      "Targets": [
+        "xpath=/html/body/div/div/div/div/div[2]/div[3]/table/tbody/tr[3]/td[4]/table/tbody/tr[2]/td/input",
+        "xpath=//input[@type='text']",
+        "xpath=//input",
+        "css=body > div.modal.fade.ng-isolate-scope.in > div > div > div > div.modal-body > div:nth-child(3) > table > tbody > tr.ng-scope.ng-valid-time.ng-invalid.ng-invalid-required.ng-valid-maxlength.ng-dirty.ng-valid-parse > td:nth-child(4) > table > tbody > tr:nth-child(2) > td.form-group.uib-time.hours > input"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "name=updateDailyAttendanceRunningNumber",
+      "Value": "${!clipboard}",
+      "Targets": [
+        "name=updateDailyAttendanceRunningNumber",
+        "xpath=/html/body/div/div/div/div/div[2]/div[3]/table/tbody/tr[3]/td[5]/div/input",
+        "xpath=//input[@name='updateDailyAttendanceRunningNumber']",
+        "xpath=//div/input",
+        "css=body > div.modal.fade.ng-isolate-scope.in > div > div > div > div.modal-body > div:nth-child(3) > table > tbody > tr.ng-scope.ng-valid-time.ng-valid-maxlength.ng-dirty.ng-valid-parse.ng-valid.ng-valid-required > td:nth-child(5) > div > input"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=/html/body/div/div/div/div/div[2]/div[3]/table/tbody/tr[3]/td[7]/div/button",
+      "Value": "",
+      "Targets": [
+        "xpath=/html/body/div/div/div/div/div[2]/div[3]/table/tbody/tr[3]/td[7]/div/button",
+        "xpath=//td[7]/div/button",
+        "css=body > div.modal.fade.ng-isolate-scope.in > div > div > div > div.modal-body > div:nth-child(3) > table > tbody > tr.ng-scope.ng-valid-time.ng-valid-maxlength.ng-dirty.ng-valid-parse.ng-valid.ng-valid-required > td:nth-child(7) > div > button:nth-child(1)"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "10000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=/html/body/div/div/div/div/div[2]/div/div/button",
+      "Value": "",
+      "Targets": [
+        "xpath=/html/body/div/div/div/div/div[2]/div/div/button",
+        "xpath=//div[2]/div/div/button",
+        "css=body > div.modal.fade.ng-isolate-scope.in > div > div > div > div.modal-body > div:nth-child(1) > div > button:nth-child(1)"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=/html/body/div/div/div/div/div[2]/div[3]/table/tbody/tr[3]/td[2]/div/a",
+      "Value": "",
+      "Targets": [
+        "xpath=/html/body/div/div/div/div/div[2]/div[3]/table/tbody/tr[3]/td[2]/div/a",
+        "xpath=//a",
+        "css=body > div.modal.fade.ng-isolate-scope.in > div > div > div > div.modal-body > div:nth-child(3) > table > tbody > tr.ng-pristine.ng-valid.ng-scope.ng-valid-time.ng-valid-required.ng-valid-maxlength > td:nth-child(2) > div > a"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "linkText=C406 強制性基本安全訓練課程(平安咭) Mandatory Basic Safety Training Course(Green Card)",
+      "Value": "",
+      "Targets": [
+        "linkText=C406 強制性基本安全訓練課程(平安咭) Mandatory Basic Safety Training Course(Green Card)",
+        "xpath=/html/body/div/div/div/div/div[2]/div[3]/table/tbody/tr[3]/td[2]/div/ul/li/a",
+        "xpath=//li/a",
+        "css=body > div.modal.fade.ng-isolate-scope.in > div > div > div > div.modal-body > div:nth-child(3) > table > tbody > tr.ng-pristine.ng-valid.ng-scope.ng-valid-time.ng-valid-required.ng-valid-maxlength > td:nth-child(2) > div > ul > li > a"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "select",
+      "Target": "xpath=/html/body/div/div/div/div/div[2]/div[3]/table/tbody/tr[3]/td[3]/div/select",
+      "Value": "label=In",
+      "Targets": [
+        "xpath=/html/body/div/div/div/div/div[2]/div[3]/table/tbody/tr[3]/td[3]/div/select",
+        "xpath=//select",
+        "css=body > div.modal.fade.ng-isolate-scope.in > div > div > div > div.modal-body > div:nth-child(3) > table > tbody > tr.ng-pristine.ng-valid.ng-scope.ng-valid-time.ng-valid-required.ng-valid-maxlength > td:nth-child(3) > div > select"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "select",
+      "Target": "xpath=/html/body/div/div/div/div/div[2]/div[3]/table/tbody/tr[3]/td[3]/div/select",
+      "Value": "label=Out",
+      "Targets": [
+        "xpath=/html/body/div/div/div/div/div[2]/div[3]/table/tbody/tr[3]/td[3]/div/select",
+        "xpath=//select",
+        "css=body > div.modal.fade.ng-isolate-scope.in > div > div > div > div.modal-body > div:nth-child(3) > table > tbody > tr.ng-valid.ng-scope.ng-valid-time.ng-valid-required.ng-valid-maxlength.ng-dirty.ng-valid-parse > td:nth-child(3) > div > select"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "xpath=/html/body/div/div/div/div/div[2]/div[3]/table/tbody/tr[3]/td[4]/table/tbody/tr[2]/td/input",
+      "Value": "18",
+      "Targets": [
+        "xpath=/html/body/div/div/div/div/div[2]/div[3]/table/tbody/tr[3]/td[4]/table/tbody/tr[2]/td/input",
+        "xpath=//input[@type='text']",
+        "xpath=//input",
+        "css=body > div.modal.fade.ng-isolate-scope.in > div > div > div > div.modal-body > div:nth-child(3) > table > tbody > tr.ng-valid.ng-scope.ng-valid-time.ng-valid-required.ng-valid-maxlength.ng-dirty.ng-valid-parse > td:nth-child(4) > table > tbody > tr:nth-child(2) > td.form-group.uib-time.hours > input"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=/html/body/div/div/div/div/div[2]/div[3]/table/tbody/tr[3]/td[7]/div/button",
+      "Value": "",
+      "Targets": [
+        "xpath=/html/body/div/div/div/div/div[2]/div[3]/table/tbody/tr[3]/td[7]/div/button",
+        "xpath=//td[7]/div/button",
+        "css=body > div.modal.fade.ng-isolate-scope.in > div > div > div > div.modal-body > div:nth-child(3) > table > tbody > tr.ng-valid.ng-scope.ng-valid-time.ng-valid-required.ng-valid-maxlength.ng-dirty.ng-valid-parse > td:nth-child(7) > div > button:nth-child(1)"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "10000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=/html/body/div/div/div/div/div/div/div[2]/button",
+      "Value": "",
+      "Targets": [
+        "xpath=/html/body/div/div/div/div/div/div/div[2]/button",
+        "xpath=//button",
+        "css=body > div.modal.fade.ng-isolate-scope.in > div > div > div > div.modal-header > div > div.col-md-4 > button"
+      ],
+      "Description": ""
+    }
+  ]
+}
